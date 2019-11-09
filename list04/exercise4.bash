@@ -1,7 +1,7 @@
 #!bin/bash
+cd history
 name="${1///}"
 lynx -dump $1 > $name
-
 while [ true ]
 do
 	sleep $2
