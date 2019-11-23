@@ -9,7 +9,9 @@ do
 	diff $name tmp > "history $name"
 	if [ -s "history $name" ]
 	then
-		echo "changes spotted"
+		echo -e  "\e[5m changes spotted \e[0m"
+	else
+		echo "nothing changed"
 	fi
 	lynx -dump $1 >$name
 done

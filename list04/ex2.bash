@@ -17,4 +17,6 @@ for id in /proc/*/ ; do
         echo "$v1 $v2 $v3 $v4 $v5 $v6"
     fi
 done
+echo "Name PID PPID State TGID RunningFiles"
+
 

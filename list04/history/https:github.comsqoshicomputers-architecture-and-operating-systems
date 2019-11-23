@@ -71,36 +71,31 @@ Join GitHub today
    and review code, manage projects, and build software together.
    [49]Sign up
    test
-     * [50]12 commits
+     * [50]13 commits
      * [51]1 branch
      * [52]0 releases
      * [53]1 contributor
 
-   Assembly C
-    1. [54]Assembly 66.0%
-    2. [55]C 34.0%
+   Shell Assembly C
+    1. [54]Shell 81.4%
+    2. [55]Assembly 12.3%
+    3. [56]C 6.3%
 
    Branch: master (BUTTON) New pull request
-   [56]Find file
+   [57]Find file
    Clone or download
 
 Clone with HTTPS
 
    Use Git or checkout with SVN using the web URL.
    https://github.com/s
-   [57]Download ZIP
+   [58]Download ZIP
 
 Downloading...
 
    Want to be notified of new releases in
    sqoshi/computers-architecture-and-operating-systems?
-   [58]Sign in [59]Sign up
-
-Launching GitHub Desktop...
-
-   If nothing happens, [60]download GitHub Desktop and try again.
-
-   (BUTTON) Go back
+   [59]Sign in [60]Sign up
 
 Launching GitHub Desktop...
 
@@ -108,46 +103,51 @@ Launching GitHub Desktop...
 
    (BUTTON) Go back
 
+Launching GitHub Desktop...
+
+   If nothing happens, [62]download GitHub Desktop and try again.
+
+   (BUTTON) Go back
+
 Launching Xcode...
 
-   If nothing happens, [62]download Xcode and try again.
+   If nothing happens, [63]download Xcode and try again.
 
    (BUTTON) Go back
 
 Launching Visual Studio...
 
-   If nothing happens, [63]download the GitHub extension for Visual Studio
+   If nothing happens, [64]download the GitHub extension for Visual Studio
    and try again.
 
    (BUTTON) Go back
-   [64]@sqoshi
-   [65]sqoshi [66]l4 finished almost
-   Latest commit [67]62864e8 Nov 9, 2019
-   [68]Permalink
-   Type    Name        Latest commit message      Commit time
+   Fetching latest commit…
+   Cannot retrieve the latest commit at this time.
+   [65]Permalink
+   Type    Name      Latest commit message  Commit time
         Failed to load latest commit information.
-        [69]list02 [70]no time for * maybe later Oct 16, 2019
-        [71]list03 [72]l4 added                  Nov 9, 2019
-        [73]list04 [74]l4 finished almost        Nov 9, 2019
+        [66]list02
+        [67]list03
+        [68]list04 [69]history fold upgrade Nov 9, 2019
 
      * © 2019 GitHub, Inc.
-     * [75]Terms
-     * [76]Privacy
-     * [77]Security
-     * [78]Status
-     * [79]Help
+     * [70]Terms
+     * [71]Privacy
+     * [72]Security
+     * [73]Status
+     * [74]Help
 
-     * [80]Contact GitHub
-     * [81]Pricing
-     * [82]API
-     * [83]Training
-     * [84]Blog
-     * [85]About
+     * [75]Contact GitHub
+     * [76]Pricing
+     * [77]API
+     * [78]Training
+     * [79]Blog
+     * [80]About
 
    (BUTTON) You can’t perform that action at this time.
 
-   You signed in with another tab or window. [86]Reload to refresh your
-   session. You signed out in another tab or window. [87]Reload to refresh
+   You signed in with another tab or window. [81]Reload to refresh your
+   session. You signed out in another tab or window. [82]Reload to refresh
    your session.
 
    (BUTTON)
@@ -208,45 +208,40 @@ References
   51. https://github.com/sqoshi/computers-architecture-and-operating-systems/branches
   52. https://github.com/sqoshi/computers-architecture-and-operating-systems/releases
   53. https://github.com/sqoshi/computers-architecture-and-operating-systems/graphs/contributors
-  54. https://github.com/sqoshi/computers-architecture-and-operating-systems/search?l=assembly
-  55. https://github.com/sqoshi/computers-architecture-and-operating-systems/search?l=c
-  56. https://github.com/sqoshi/computers-architecture-and-operating-systems/find/master
-  57. https://github.com/sqoshi/computers-architecture-and-operating-systems/archive/master.zip
-  58. https://github.com/login?return_to=https://github.com/sqoshi/computers-architecture-and-operating-systems/
-  59. https://github.com/join?return_to=/sqoshi/computers-architecture-and-operating-systems
-  60. https://desktop.github.com/
+  54. https://github.com/sqoshi/computers-architecture-and-operating-systems/search?l=shell
+  55. https://github.com/sqoshi/computers-architecture-and-operating-systems/search?l=assembly
+  56. https://github.com/sqoshi/computers-architecture-and-operating-systems/search?l=c
+  57. https://github.com/sqoshi/computers-architecture-and-operating-systems/find/master
+  58. https://github.com/sqoshi/computers-architecture-and-operating-systems/archive/master.zip
+  59. https://github.com/login?return_to=https://github.com/sqoshi/computers-architecture-and-operating-systems/
+  60. https://github.com/join?return_to=/sqoshi/computers-architecture-and-operating-systems
   61. https://desktop.github.com/
-  62. https://developer.apple.com/xcode/
-  63. https://visualstudio.github.com/
-  64. https://github.com/sqoshi
-  65. https://github.com/sqoshi/computers-architecture-and-operating-systems/commits?author=sqoshi
-  66. https://github.com/sqoshi/computers-architecture-and-operating-systems/commit/62864e88317a9c277c028fcc5bdc9a2e20a1aa39
-  67. https://github.com/sqoshi/computers-architecture-and-operating-systems/commit/62864e88317a9c277c028fcc5bdc9a2e20a1aa39
-  68. https://github.com/sqoshi/computers-architecture-and-operating-systems/tree/62864e88317a9c277c028fcc5bdc9a2e20a1aa39
-  69. https://github.com/sqoshi/computers-architecture-and-operating-systems/tree/master/list02
-  70. https://github.com/sqoshi/computers-architecture-and-operating-systems/commit/71ccc7b7101b75d4237133d942446cc3082ccf66
-  71. https://github.com/sqoshi/computers-architecture-and-operating-systems/tree/master/list03
-  72. https://github.com/sqoshi/computers-architecture-and-operating-systems/commit/81314f5a0805abd680733372bd4f3638e0aea769
-  73. https://github.com/sqoshi/computers-architecture-and-operating-systems/tree/master/list04
-  74. https://github.com/sqoshi/computers-architecture-and-operating-systems/commit/62864e88317a9c277c028fcc5bdc9a2e20a1aa39
-  75. https://github.com/site/terms
-  76. https://github.com/site/privacy
-  77. https://github.com/security
-  78. https://githubstatus.com/
-  79. https://help.github.com/
-  80. https://github.com/contact
-  81. https://github.com/pricing
-  82. https://developer.github.com/
-  83. https://training.github.com/
-  84. https://github.blog/
-  85. https://github.com/about
-  86. https://github.com/sqoshi/computers-architecture-and-operating-systems/
-  87. https://github.com/sqoshi/computers-architecture-and-operating-systems/
+  62. https://desktop.github.com/
+  63. https://developer.apple.com/xcode/
+  64. https://visualstudio.github.com/
+  65. https://github.com/sqoshi/computers-architecture-and-operating-systems/tree/90f9f6df9f4776127dc847ee344806a8d7e1f709
+  66. https://github.com/sqoshi/computers-architecture-and-operating-systems/tree/master/list02
+  67. https://github.com/sqoshi/computers-architecture-and-operating-systems/tree/master/list03
+  68. https://github.com/sqoshi/computers-architecture-and-operating-systems/tree/master/list04
+  69. https://github.com/sqoshi/computers-architecture-and-operating-systems/commit/90f9f6df9f4776127dc847ee344806a8d7e1f709
+  70. https://github.com/site/terms
+  71. https://github.com/site/privacy
+  72. https://github.com/security
+  73. https://githubstatus.com/
+  74. https://help.github.com/
+  75. https://github.com/contact
+  76. https://github.com/pricing
+  77. https://developer.github.com/
+  78. https://training.github.com/
+  79. https://github.blog/
+  80. https://github.com/about
+  81. https://github.com/sqoshi/computers-architecture-and-operating-systems/
+  82. https://github.com/sqoshi/computers-architecture-and-operating-systems/
 
    Hidden links:
+  84. https://github.com/
+  85. https://github.com/sqoshi/computers-architecture-and-operating-systems/
+  86. https://github.com/sqoshi/computers-architecture-and-operating-systems/
+  87. https://github.com/sqoshi/computers-architecture-and-operating-systems/
+  88. https://help.github.com/articles/which-remote-url-should-i-use
   89. https://github.com/
-  90. https://github.com/sqoshi/computers-architecture-and-operating-systems/
-  91. https://github.com/sqoshi/computers-architecture-and-operating-systems/
-  92. https://github.com/sqoshi/computers-architecture-and-operating-systems/
-  93. https://help.github.com/articles/which-remote-url-should-i-use
-  94. https://github.com/
