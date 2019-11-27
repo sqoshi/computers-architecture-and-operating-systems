@@ -1,19 +1,21 @@
 #include <stdarg.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <string.h>
 void myprintf (char *, ...);
 char *convert (unsigned int num, int base);
 int mystrlen (const char *str);
 int myatoi (char *buffer, int base);
 void myscanf (char *format, ...);
-
+// 4294967295 max uns work
 void
 myprintf (char *format, ...)
 {
   char *traverse;
   unsigned int arg;
   char *arg2;
-
+  //va_Start sets up a pointer to first function parameter
+  //which makes p point to second parameter
   char *p = (((char *) &format) + sizeof (format));
 
   for (traverse = format; *traverse != '\0'; traverse++)
@@ -23,21 +25,23 @@ myprintf (char *format, ...)
 	  traverse++;
 	  if (*traverse == 'd')
 	    {
+	      //va_arg moving p pointer to next argument and makes arg
+	      // to point  to p as index
 	      arg = *((int *) p);
 	      p += sizeof (int);
-	      write (1, convert (arg, 10), sizeof (convert (arg, 10)));
+	      write (1, convert (arg, 10),sizeof(convert(arg,10))*strlen(convert(arg,10)));
 	    }
 	  else if (*traverse == 'x')
 	    {
 	      arg = *((int *) p);
 	      p += sizeof (int);
-	      write (1, convert (arg, 16), sizeof (convert (arg, 10)));
+	      write (1, convert (arg, 16), sizeof(convert(arg,16))* mystrlen(convert (arg, 16)));
 	    }
 	  else if (*traverse == 'b')
 	    {
 	      arg = *((int *) p);
 	      p += sizeof (int);
-	      write (1, convert (arg, 2), sizeof (convert (arg, 10)));
+	      write (1, convert (arg, 2), sizeof(convert(arg,2))* mystrlen(convert (arg, 2)));
 	    }
 	  else if (*traverse == 's')
 	    {
@@ -51,6 +55,7 @@ myprintf (char *format, ...)
 	  write (1, (void *) traverse, 1);
 	}
     }
+//va_end just sets p to NULL
 }
 
 
@@ -91,6 +96,7 @@ void
 myscanf (char *format, ...)
 {
   char *traverse;
+//va_Start sets pointer to point to first argument
   char *p = (((char *) &format) + sizeof (format));
   char *input = malloc (1024 * sizeof (char));
 
@@ -157,9 +163,16 @@ myatoi (char *s, int base)
 int
 main ()
 {
-  int i;
-  myscanf ("%d", &i);
-  myprintf ("\nxd\n");
-  myprintf ("%d\n", i);
-  return 0;
+	char* str = "testtesttest";
+	int i,c;
+	myscanf ("%d", &i);
+	myscanf("%b",&c);
+	myprintf("%d\n",c);
+	myprintf("b\n",c);
+	myprintf("tests part2");
+	myprintf ("testtesttest= %s\n",str);
+	myprintf("binary test = %b\n",i);
+	myprintf ("decimal test = %d\n", i);
+	myprintf("hexadecimal test = %x\n",i);
+  	return 0;
 }
