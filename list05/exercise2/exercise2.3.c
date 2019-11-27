@@ -1,24 +1,40 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <signal.h>
+#include <stdio.h>
 #include <unistd.h>
 
-void any_signal_handler(int sig_num)
-{
-    int qty = 0;
-    printf("Signal %i: %i\n", qty, sig_num);
-    qty++;
+void sig_handler(int signo) {
+    		printf("received SIGUSR1\n");
+	
 }
-
 int main() {
-    for(int i = 1; i < 65; i++) {
-        signal(i, any_signal_handler);
-    }
+	if(signal(SIGUSR1, sig_handler) == SIG_ERR){
+		printf("cannot catch SIGUSR1\n");	
+	}	
+	pid_t pid;
+	pid = fork();
+	
+	if(pid==0){
+		while(1);
+	}
+	else
+	{
+	
+		kill(pid, SIGUSR1);
 
-    printf("PID: %i\n", getpid());
+		sleep(1);
+		kill(pid, SIGUSR1);
 
-    while(1) {
-        sleep(1);
-    }
-
-    return 0;
+		kill(pid, SIGUSR1);
+		kill(pid, SIGUSR1);
+		kill(pid, SIGUSR1);
+		kill(pid, SIGUSR1);
+		kill(pid, SIGUSR1);
+		
+		while (1);
+	}
+		
+	return 0;
 }
+// nie sa kolejkowane
+
