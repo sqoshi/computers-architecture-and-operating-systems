@@ -46,7 +46,7 @@ void* mult(void* vargp) {
 		for (int i = 0; i < m->size; i++) {
 			for (int j = 0; j < m->size; j++) {
 				m->res[row][i] |= (m->m1[row][j] && m->m2[j][i]);
-				if(m->res[row][i]==1) break;//bc if once its 1 rest no matter 
+				if(m->res[row][i]==1) break;//bc if once its 1 rest no matter
 			}
 		}
 	}
@@ -64,9 +64,10 @@ void* printer(matrices m){
                         printf("  ");
                 printf(" | ");
 //m2
-        for(int columns=0; columns<size; columns++)
-                printf("\x1b[38;5;226m%d \x1b[0m",m.m2[row][columns]);
-        printf("\n");
+        for(int columns=0; columns<size; columns++){
+	        	printf("\x1b[38;5;226m%d \x1b[0m",m.m2[row][columns]);
+        }
+	printf("\n");
         }
 // --
         for(int columns=0; columns<2*size+1; columns++)
@@ -115,8 +116,7 @@ int main(int argc, char* argv[]) {
 
 	pthread_mutex_destroy(&mutex);
 	printf("mutex-destroy, exit\n");
+
 	printer(m);
-return 0;
+	return 0;
 }
-
-

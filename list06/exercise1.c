@@ -125,7 +125,7 @@ myscanf (char *format, ...)
 	  else if (*traverse == 'b')
 	    {
 	      arg = *((int **) p);
-	      read (0, input, 1024);
+	      read (0, input, 1024*sizeof(int));
 	      *arg = myatoi (input, 2);
 	      p += sizeof (int *);
 	    }
@@ -168,7 +168,7 @@ main ()
 	myscanf ("%d", &i);
 	myscanf("%b",&c);
 	myprintf("%d\n",c);
-	myprintf("b\n",c);
+	myprintf("%b\n",c);
 	myprintf("tests part2");
 	myprintf ("testtesttest= %s\n",str);
 	myprintf("binary test = %b\n",i);
