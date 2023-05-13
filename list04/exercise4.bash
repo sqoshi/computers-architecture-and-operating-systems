@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 cd history
 name="${1///}"
 lynx -dump $1 > $name

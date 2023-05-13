@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 echo "Name PID PPID State TGID RunningFiles"
 for id in /proc/*/ ; do
     if [ -f "$id"status ] 
